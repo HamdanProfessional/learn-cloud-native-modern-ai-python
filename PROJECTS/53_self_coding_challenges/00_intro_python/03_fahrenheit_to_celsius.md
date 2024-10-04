@@ -30,3 +30,14 @@ if __name__ == '__main__':
 ```
 
 ## Solution
+
+```bash
+def main():
+    temperature : str = input("Enter temperature in Fahrenheit: ")
+    temperature : int = int(temperature)
+    celsius : int = (temperature - 32) * 5/9
+    print(f"Tempreature {temperature}F: {celsius}C")
+
+if __name__ == '__main__':
+    main()
+```
